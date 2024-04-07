@@ -26,6 +26,7 @@ export default defineConfig({
     nav: [
       { text: "Guide", link: "/guide/" },
       { text: "低代码配置列表", link: "/configList/" },
+      { text: "数据源", link: "/dataSource/" },
       // { text: "书单", link: "/book/" },
       // { text: "github", link: "https://github.com/formily" },
     ],
@@ -50,10 +51,10 @@ export default defineConfig({
         ],
       },
       {
-        text: "组件",
+        text: "功能",
         items: [
-          { text: "ComA 组件A", link: "/components/comA" },
-          { text: "ComB 组件B", link: "/components/comB" },
+          { text: "低代码配置列表", link: "/configList/" },
+          { text: "数据源", link: "/dataSource/" },
         ],
       },
     ],

@@ -75,10 +75,10 @@
 </template>
 <script setup lang="ts">
 import { onMounted, ref, reactive } from "vue";
-import { usePagination } from "../composition/use-pagination";
+import { usePagination } from "@/composition/use-pagination";
 import { ElMessageBox } from "element-plus";
 import { ElMessage } from "element-plus";
-import apiServer from "../utils/axios";
+import apiServer from "@/utils/axios";
 import { log } from "console";
 
 const loading = ref(false);
